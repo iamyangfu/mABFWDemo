@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: long
+  m_Shader: {fileID: 4800000, guid: 446acb096613a4465ac9f176f0fd53fb, type: 3}
+  m_ShaderKeywords: _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 0ab54d5f23cd3a84cb5081cd6b096389, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeTex:
+        m_Texture: {fileID: 8900000, guid: 86f597e6f041144a2bbaa379913b0c74, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTex:
+        m_Texture: {fileID: 2800000, guid: 0ad3c1332158633478f2e2aacd85d04f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HDRmasktexture:
+        m_Texture: {fileID: 2800000, guid: cba97ffb20fc1374e9ab6408d5d43ad8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ada1e7a6b11abb24caef3a7f144a7a72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: cba97ffb20fc1374e9ab6408d5d43ad8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: 7c1093cbe103f9147ac507473f9bab17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap1:
+        m_Texture: {fileID: 2800000, guid: eef6363018bee264381dacf16dad0d75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap2:
+        m_Texture: {fileID: 2800000, guid: 46ecde4e7dc2f5d4cb8615286959d74f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap3:
+        m_Texture: {fileID: 2800000, guid: f85514b384fe8b1428131e8f033f4d40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap4:
+        m_Texture: {fileID: 2800000, guid: 3656914cfc7a93b4fbf437969c3d1f2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapMetallic:
+        m_Texture: {fileID: 2800000, guid: fcc0a0c5adfde1d41854ea3366bf5680, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapRoughness:
+        m_Texture: {fileID: 2800000, guid: 3a69e506cc902df45b4e06e9aaae2a20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapSkin:
+        m_Texture: {fileID: 2800000, guid: 4d9f057c0cda07e47815c1aeb5fa1193, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MixMap:
+        m_Texture: {fileID: 2800000, guid: d76a337156f56b242b20c8409702a775, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 2800000, guid: 7c1093cbe103f9147ac507473f9bab17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpFactor: 1.3
+    - _BumpScale: 1
+    - _CubeIntensity: 1.6
+    - _CutOff: 0.5
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeBrightness: 0.3
+    - _EdgeThickness: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.53
+    - _GlossyReflections: 1
+    - _GlowAni_BOOL: 0
+    - _HDRMinPower: 1
+    - _HdrSparkleSpeed: 0
+    - _HdrSpeed: 0.5
+    - _LightOffset: 1
+    - _MatCap1Intensity: 8.81
+    - _MatCap1ShadowRotation: 1.48
+    - _MatCap1ShadowSize: -0.397
+    - _MatCap1ShadowSmoothness: 0.33
+    - _MatCap1TexCapRotation: 0
+    - _MatCap1TexSize: 1
+    - _MatCap2Intensity: 1.76
+    - _MatCap2ShadowRotation: 2.9
+    - _MatCap2ShadowSize: -0.25
+    - _MatCap2ShadowSmoothness: 0.631
+    - _MatCap2TexCapRotation: 2.1
+    - _MatCap2TexSize: 1
+    - _MatCap3Intensity: 1
+    - _MatCap3ShadowRotation: 0.8
+    - _MatCap3ShadowSize: -0.409
+    - _MatCap3ShadowSmoothness: 0.149
+    - _MatCap3TexCapRotation: 0.68
+    - _MatCap3TexSize: 2.4
+    - _MatCap4Intensity: 1
+    - _MatCap4ShadowRotation: 1.59
+    - _MatCap4ShadowSize: -0.321
+    - _MatCap4ShadowSmoothness: -0.015
+    - _MatCap4TexCapRotation: 5.98
+    - _MatCap4TexSize: 2.84
+    - _Metallic: 1
+    - _MetallicIntensity: 11.7
+    - _MetallicRotation: 5.97
+    - _MetallicSize: 1.94
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimCameraEnd: 3
+    - _RimCameraStart: 0.5
+    - _RimCutSmoothness: 0.28
+    - _RimLightRotation: 3.62
+    - _RimSize: 0.563
+    - _RoughnessLightRotation: 1.01
+    - _RoughnessMatCapRotation: 0.36
+    - _RoughnessSize: -0.204
+    - _RoughnessSmoothness: 0.207
+    - _ShadowIntensity: 0
+    - _ShadowSmoothness: 1
+    - _SkinCutSmoothness: 0.092
+    - _SkinLightRotation: 4.25
+    - _SkinSize: -0.5
+    - _SmoothnessTextureChannel: 0
+    - _Specular: 23.4
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _mAlpha: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HdrColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LightColor: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+    - _MatCap1Color: {r: 0.4528302, g: 0.31109682, b: 0.19437523, a: 1}
+    - _MatCap2Color: {r: 0.990566, g: 0.7272163, b: 0.2943663, a: 1}
+    - _MatCap3Color: {r: 0.8113208, g: 0.7644239, b: 0.6314525, a: 1}
+    - _MatCap4Color: {r: 0, g: 0.41118714, b: 0.41509432, a: 1}
+    - _MetallicColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
+    - _ReceiveShadowColor: {r: 0.6037736, g: 0.4391524, b: 0.31612673, a: 1}
+    - _RimLightColor: {r: 0.2893521, g: 0.2893521, b: 0.2893521, a: 1}
+    - _RimSkinColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RoughnessColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RoughnessMatCapColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SkinColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
